@@ -1,0 +1,258 @@
+html{
+    scroll-behavior: smooth;
+}
+
+.about, .wedo, .contact, .pricing{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    height: 160px;
+    font-weight: bold;
+}
+
+.jumbotron{
+    background-image: url('image/jumbotron.jpg');
+    background-size: cover;
+    height: 620px;
+    margin-top: 50px;
+}
+.jumbotron .display-4{
+    margin-top: 160px;
+    font-weight: bold;
+    font-size: 60px;
+}
+.jumbotron hr{
+    margin-right: 520px;
+    width: 750px;
+    border: 1px solid;
+}
+.aboutus .about_p{
+    margin-top: 100px;
+    margin-left: 70px;
+}
+
+
+.about {
+    background-color: #fff;
+    padding-top: 90px;
+    position: relative;
+
+}
+
+.about_img {
+    overflow: hidden;
+}
+
+.about_img figure {
+    margin: 0;
+}
+
+.about_img figure img {
+    width: 75%;
+    transition: all .5s;
+    margin-left: 70px;
+
+}
+
+.about_img figure img:hover {
+    transform: scale(1.2);
+}
+
+.we_box {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.we_box i {
+    border-radius: 50%;
+    border: #404040 solid 1px;
+    width: 210px;
+    height: 210px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.we_box h3 {
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 25px;
+    padding-bottom: 5px;
+    color: #2e2d2d;
+    padding-top: 30px;
+}
+.pricing {
+    background-color: #fff;
+    position: relative;
+
+}
+
+.pricing .titlepage {
+    text-align: center;
+    padding-bottom: 45px;
+}
+
+.pricing_box {
+    border: #727272 solid 1px;
+    padding: 74px 90px 80px 90px;
+}
+
+.pricing_box_ti {
+    text-align: center;
+}
+
+.pricing_box_ti h3 {
+    font-size: 35px;
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+
+.pricing_box_ti h3 span {
+    color: #7321cd;
+}
+
+.pricing_box_ti h3 strong {
+    font-size: 15px;
+    font-weight: normal;
+
+}
+
+.our_pricing {
+    text-align: center;
+}
+
+.our_pricing span {
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 25px;
+    padding-bottom: 20px;
+    color: #2e2d2d;
+    padding-top: 30px;
+    display: block;
+}
+
+.our_pricing p {
+    line-height: 39px;
+}
+
+.mar_top {
+    margin-top: -20px !important;
+    margin: 0 auto;
+    display: block;
+    max-width: 142px;
+    height: 40px;
+    padding: 4px 0;
+    font-weight: normal;
+    margin-bottom: 30px;
+}
+
+.bottom_form {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 8px;
+}
+
+.bottom_form h3 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: left;
+    color: #fff;
+    padding-top: 12px;
+    margin-right: 93px;
+    text-transform: uppercase;
+    border: inherit;
+}
+
+.bottom_form .enter {
+    border: inherit;
+    padding: 0px 50px 0px 19px;
+    width: 100%;
+    height: 45px;
+    background: #fffffff2;
+    color: #ccc8c8;
+    font-size: 17px;
+    font-weight: 300;
+    float: left;
+    margin-bottom: 20px;
+}
+
+.right_btn {
+    font-size: 17px;
+    transition: ease-in all 0.3s;
+    background-color: #7321cd;
+    color: #fff;
+    padding: 8px 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+    height: 45px;
+    position: absolute;
+    right: 14px;
+}
+
+.right_btn:hover {
+    background-color: #ddd;
+    transition: ease-in all 0.3s;
+    color: #7321cd;
+}
+
+.bottom_form p {
+    color: #757575;
+    text-align: left;
+}
+
+.send_button{
+    font-size: 20px;
+     transition: ease-in all 0.3s;
+     background-color: #2e2d2d;
+     text-transform: uppercase;
+     color: #fff;
+     padding: 10px 0px;
+     max-width: 193px;
+     width: 100%;
+     display: block;
+     margin-top: 10px !important;
+     font-weight: 500;
+     margin-bottom: 60px !important;
+     margin: 0 auto;
+}
+.send_button:hover {
+    background-color: #7321cd;
+    transition: ease-in all 0.3s;
+    color: #fff;
+}
+
+.footer {
+    background: #222222;
+    padding-top: 30px;
+    text-align: center;
+}
+.footer h3 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 19px;
+    text-align: left;
+    color: #fff;
+    padding-bottom: 15px;
+    display: table;
+}
+.paragraph {
+    color: #8c8c8c;
+    text-align: left;
+    padding-right: 40px;
+}
+
+.error{
+    display: block;
+    font-weight: 700;
+    font-size: 14px;
+    color: red;
+    display: none;
+}
