@@ -64,6 +64,8 @@ Route::post('/pegawai/store','App\Http\Controllers\PegawaiController@store');
 Route::get('/pegawai/edit/{id}','App\Http\Controllers\PegawaiController@edit');
 Route::post('/pegawai/update','App\Http\Controllers\PegawaiController@update');
 Route::get('/pegawai/hapus/{id}','App\Http\Controllers\PegawaiController@hapus');
+Route::get('/pegawai/view/{id}','App\Http\Controllers\PegawaiController@view');
+Route::post('/pegawai/show/{id}','App\Http\Controllers\PegawaiController@show');
 
 
 Route::get('/pegawai/cari','App\Http\Controllers\PegawaiController@cari');
