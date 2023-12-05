@@ -69,3 +69,13 @@ Route::post('/pegawai/show/{id}','App\Http\Controllers\PegawaiController@show');
 
 
 Route::get('/pegawai/cari','App\Http\Controllers\PegawaiController@cari');
+
+Route::get('/keranjangbelanja','App\Http\Controllers\KeranjangController@keranjang');
+Route::get('/keranjangbelanja/batal/{id}','App\Http\Controllers\KeranjangController@batal');
+Route::get('/keranjangbelanja/tambah2','App\Http\Controllers\KeranjangController@tambah2');
+Route::post('/keranjangbelanja/store','App\Http\Controllers\KeranjangController@store');
+
+//route CRUD nilai
+Route::get('/nilaikuliah','App\Http\Controllers\NilaiKuliahController@index2');
+Route::get('/nilaikuliah/tambah3','App\Http\Controllers\NilaiKuliahController@tambah3');
+Route::post('/nilaikuliah/store','App\Http\Controllers\NilaiKuliahController@store');
