@@ -79,3 +79,13 @@ Route::post('/keranjangbelanja/store','App\Http\Controllers\KeranjangController@
 Route::get('/nilaikuliah','App\Http\Controllers\NilaiKuliahController@index2');
 Route::get('/nilaikuliah/tambah3','App\Http\Controllers\NilaiKuliahController@tambah3');
 Route::post('/nilaikuliah/store','App\Http\Controllers\NilaiKuliahController@store');
+
+//route CRUD bank
+Route::get('/bank','App\Http\Controllers\BankController@index');
+Route::get('/bank/tambah','App\Http\Controllers\BankController@tambah');
+Route::post('/bank/store','App\Http\Controllers\BankController@store');
+Route::get('/bank/edit/{id}','App\Http\Controllers\BankController@edit');
+Route::post('/bank/update','App\Http\Controllers\BankController@update');
+Route::get('/bank/hapus/{id}','App\Http\Controllers\BankController@hapus');
+Route::get('/bank/cari','App\Http\Controllers\BankController@cari');
+Route::get('/bank/view/{id}','App\Http\Controllers\BankController@view');
