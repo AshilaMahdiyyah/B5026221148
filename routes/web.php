@@ -89,3 +89,9 @@ Route::post('/bank/update','App\Http\Controllers\BankController@update');
 Route::get('/bank/hapus/{id}','App\Http\Controllers\BankController@hapus');
 Route::get('/bank/cari','App\Http\Controllers\BankController@cari');
 Route::get('/bank/view/{id}','App\Http\Controllers\BankController@view');
+
+//route CRUD karyawan
+Route::get('/karyawan','App\Http\Controllers\KaryawanController@index');
+Route::get('/karyawan/tambah','App\Http\Controllers\KaryawanController@tambah');
+Route::post('/karyawan/store','App\Http\Controllers\KaryawanController@store');
+Route::get('/karyawan/hapus/{id}','App\Http\Controllers\KaryawanController@hapus');

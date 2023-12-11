@@ -24,6 +24,10 @@
       <a class="nav-link" href="#">Link 2</a>
     </li>
 
+    <li class="nav-item">
+        <a class="nav-link" href="{{ url('/karyawan') }}">Karyawan</a>
+      </li>
+      
     <!-- Dropdown -->
     <li class="nav-item dropdown">
       <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
